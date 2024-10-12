@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/LinearLayout"
+    tools:context=".MainActivity"
+    android:background="#151823">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:autofillHints="phone"
+        android:hint="@string/weight_name"
+        android:id="@+id/edittext_wt"
+        android:textColorHint="#0B0A0C"
+        android:background="@color/white"
+        android:textAlignment="center"
+        android:inputType="number"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:hint="@string/height_ft"
+        android:textAlignment="center"
+        android:background="@color/white"
+        android:autofillHints="phone"
+        android:textColorHint="#0B0A0C"
+        android:inputType="number"
+        android:id="@+id/edittext_ft"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:autofillHints="phone"
+        android:hint="@string/height_in"
+        android:id="@+id/edittext_in"
+        android:textColorHint="#0B0A0C"
+        android:textAlignment="center"
+        android:background="@color/white"
+        android:inputType="number"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_b"
+        android:backgroundTint="#3F51B5"
+        android:id="@+id/button_res"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_result"
+        android:text="@string/Result_t"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"/>
+
+
+
+
+</LinearLayout>
